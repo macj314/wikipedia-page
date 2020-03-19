@@ -11,9 +11,23 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 
-<body> 
-  <div class="container"></div>
+<body>
 
+  <div class="container" id="maincontent">
+
+    <div class="row">
+      <div class="top-menu">
+        <ul>
+          <li>
+            <img src="https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/user-avatar.svg">
+            Not Logged in</li>
+          <li>Talk</li>
+          <li>Contributions</li>
+          <li>Create account</li>
+          <li>Log in</li>
+        </ul>
+      </div>
+    </div>
     <div class="row">
       <div class="top-nav-bar">
         <div class="top-nav-left">
@@ -32,10 +46,14 @@
               <a class="nav-link active" href="#">Read</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#"></a>View source</a>
+              <a class="nav-link" href="#">View source</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#"></a>View history</a>
+              <a class="nav-link" href="#">View history</a>
+            </li>
+            <li>
+              <input type="text" placeholder="Search Wikipedia">
+              <input type="submit" class="search-bar-submit" value="Go">
             </li>
           </ul>
         </div>
@@ -47,89 +65,117 @@
         <div class="welcome-bar">
           <div class="welcome-left">
             <div>
-              <h2>Welcome to Wikipedia,</h2>
+              <h3>Welcome to <a href="#">Wikipedia</a>,</h3>
             </div>
             <div>
-              the free encyclopedia that anyone can edit.
+              the <a href="#">free encyclopedia</a> that <a href="#">anyone can edit</a>.
             </div>
             <div>
-              6,037,156 articles in English
+              <a href="#">6,037,156</a> articles in <a href="#">English</a>
             </div>
           </div>
           <div class="welcome-right">
             <ul>
-              <li>Arts</li>
-              <li>Biography</li>
-              <li>Geography</li>
-              <li>History</li>
-              <li>Mathematics</li>
-              <li>Science</li>
-              <li>Society</li>
-              <li>Technology</li>
-              <li>All portals</li>
+              <li><a href="#">Arts</a></li>
+              <li><a href="#">Biography</a></li>
+              <li><a href="#">Geography</a></li>
+              <li><a href="#">History</a></li>
+              <li><a href="#">Mathematics</a></li>
+              <li><a href="#">Science</a></li>
+              <li><a href="#">Society</a></li>
+              <li><a href="#">Technology</a></li>
+              <li><a href="#">All portals</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="panel1 row">
-        <div class="panel-heading">
-          <h2 class="panel-title">From today's featured article</h2>
-        </div>
-        <div class="panel-body">
-          <img class="img-left"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Davidson_Township_Covered_Bridge.jpg/320px-Davidson_Township_Covered_Bridge.jpg"
-            alt="Covered Bridge">
-          <p>The Sonestown Covered Bridge is a Burr arch truss covered bridge over Muncy Creek in Davidson Township,
-              Sullivan County, in the U.S. state of Pennsylvania. Built c. 1850, the bridge is 110 feet (34 m) long, and was
-              placed on the National Register of Historic Places (NRHP) in 1980. The bridge is named for the nearby
-              unincorporated village of Sonestown; it was built to provide access to a gristmill, which operated until the
-              early 20th century. The bridge construction is cruder than the other two surviving covered bridges in Sullivan
-              County, with each Burr arch formed from six straight beams set at angles instead of a smooth curve. Despite
-              being repaired or restored several times from 1969, as of 2016 the bridge was deemed "basically intolerable
-              requiring high priority of corrective action" on the National Bridge Inventory. It is the shortest covered
-              bridge in the county and as of 2015 had average daily traffic of 50 vehicles. (Full article...)
 
-              
-          </p>
-           <div class="bottom-link">
-            <p>Recently featured: <a href="*">Arnold Bax</a> *  <a href="*">William F. Raynolds</a> * <a href="*">Bridgeport, Connecticut, Centennial half dollar</a></p>
-            <ul><a href="*">Archive</a> * <a href="*">By email</a> * <a href="*">More featured articles</a></ul>
+      <div class="container">
+        <div class="row">
+          <div class="container">
+            <div class="panel1">
+                <div class="panel-heading">
+                  <h2 class="panel-title">From today's featured article</h2>
+                </div>
+                <div class="panel-body">
+                  <img class="img-left"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Davidson_Township_Covered_Bridge.jpg/320px-Davidson_Township_Covered_Bridge.jpg"
+                    alt="Covered Bridge">
+                  <p>The Sonestown Covered Bridge is a Burr arch truss covered bridge over Muncy Creek in Davidson Township,
+                      Sullivan County, in the U.S. state of Pennsylvania. Built c. 1850, the bridge is 110 feet (34 m) long, and was
+                      placed on the National Register of Historic Places (NRHP) in 1980. The bridge is named for the nearby
+                      unincorporated village of Sonestown; it was built to provide access to a gristmill, which operated until the
+                      early 20th century. The bridge construction is cruder than the other two surviving covered bridges in Sullivan
+                      County, with each Burr arch formed from six straight beams set at angles instead of a smooth curve. Despite
+                      being repaired or restored several times from 1969, as of 2016 the bridge was deemed "basically intolerable
+                      requiring high priority of corrective action" on the National Bridge Inventory. It is the shortest covered
+                      bridge in the county and as of 2015 had average daily traffic of 50 vehicles. (Full article...)                
+                  </p>
+                  <div class="bottom-link">
+                    <p>Recently featured: <a href="*">Arnold Bax</a> *  <a href="*">William F. Raynolds</a> * <a href="*">Bridgeport, Connecticut, Centennial half dollar</a></p>
+                    <ul><a href="*">Archive</a> * <a href="*">By email</a> * <a href="*">More featured articles</a></ul>
+                  </div>
+                </div>
+                <div class="panel-heading">
+                  <h2 class="panel-title">Did you know...</h2>
+                </div>
+                <div class="panel-body">
+                  <img class="img-right"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/American_Ruff-_City_Flotsam_by_Jan_Yager.jpg/800px-American_Ruff-_City_Flotsam_by_Jan_Yager.jpg"
+                    alt="America Ruff">
+                  <ul>
+                    <li>... that Jan Yager's artwork American Ruff (pictured) is made from discarded crack-cocaine vials and caps?</li>
+                    <li>... that unlike most soft scale insects, the adult female pyriform scale is able to move around?</li>
+                    <li>... that Welsh boxer Steve Sims has trained for fights by running up and down the 290 steps of the Newport Transporter Bridge ten times a day?</li>
+                    <li>... that the Massachusetts Bay Transportation Authority twice built new lines bypassing JFK/UMass station, only to add platforms later?</li>
+                    <li>... that negotiations for the Indonesia–Australia Comprehensive Economic Partnership Agreement were hindered by spying and executions?</li>
+                    <li>... that Pier 40, a sports facility in New York City's Hudson River Park, was formerly a cargo terminal?</li>
+                    <li>... that Llerena Friend, the first director of the Barker Center for Texas History, lived in 24 different homes during her youth?</li>
+                    <li>... that IXI Limited was one of many computer companies to sprout from an acorn?</li>
+                  </ul>
+                  <div class="bottom-link">
+                    <ul><a href="*">Archive</a> * <a href="*">Start a new article</a> * <a href="*">Nominate an article</a></ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="panel2">
+                <div class="panel-heading">
+                  <h2 class="panel-title">Did you know...</h2>
+                </div>
+                <div class="panel-body">
+                  <img class="img-right"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/American_Ruff-_City_Flotsam_by_Jan_Yager.jpg/800px-American_Ruff-_City_Flotsam_by_Jan_Yager.jpg"
+                    alt="America Ruff">
+                  <ul>
+                    <li>... that Jan Yager's artwork American Ruff (pictured) is made from discarded crack-cocaine vials and caps?</li>
+                    <li>... that unlike most soft scale insects, the adult female pyriform scale is able to move around?</li>
+                    <li>... that Welsh boxer Steve Sims has trained for fights by running up and down the 290 steps of the Newport Transporter Bridge ten times a day?</li>
+                    <li>... that the Massachusetts Bay Transportation Authority twice built new lines bypassing JFK/UMass station, only to add platforms later?</li>
+                    <li>... that negotiations for the Indonesia–Australia Comprehensive Economic Partnership Agreement were hindered by spying and executions?</li>
+                    <li>... that Pier 40, a sports facility in New York City's Hudson River Park, was formerly a cargo terminal?</li>
+                    <li>... that Llerena Friend, the first director of the Barker Center for Texas History, lived in 24 different homes during her youth?</li>
+                    <li>... that IXI Limited was one of many computer companies to sprout from an acorn?</li>
+                  </ul>
+                  <div class="bottom-link">
+                    <ul><a href="*">Archive</a> * <a href="*">Start a new article</a> * <a href="*">Nominate an article</a></ul>
+                  </div>
+                </div>          
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-  <div class="container">
-    <div class="panel1 row">
-      <div class="col-xs-12">
-        <div class="panel-heading">
-          <h2 class="panel-title">Did you know...</h2>
-        </div>
-        <div class="panel-body">
-          <img class="img-right"
-            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/American_Ruff-_City_Flotsam_by_Jan_Yager.jpg/800px-American_Ruff-_City_Flotsam_by_Jan_Yager.jpg"
-            alt="America Ruff">
-          <ul>
-            <li>... that Jan Yager's artwork American Ruff (pictured) is made from discarded crack-cocaine vials and caps?</li>
-            <li>... that unlike most soft scale insects, the adult female pyriform scale is able to move around?</li>
-            <li>... that Welsh boxer Steve Sims has trained for fights by running up and down the 290 steps of the Newport Transporter Bridge ten times a day?</li>
-            <li>... that the Massachusetts Bay Transportation Authority twice built new lines bypassing JFK/UMass station, only to add platforms later?</li>
-            <li>... that negotiations for the Indonesia–Australia Comprehensive Economic Partnership Agreement were hindered by spying and executions?</li>
-            <li>... that Pier 40, a sports facility in New York City's Hudson River Park, was formerly a cargo terminal?</li>
-            <li>... that Llerena Friend, the first director of the Barker Center for Texas History, lived in 24 different homes during her youth?</li>
-            <li>... that IXI Limited was one of many computer companies to sprout from an acorn?</li>
-          </ul>
-          <div class="bottom-link">
-            <p>Recently featured: <a href="*">Arnold Bax</a> *  <a href="*">William F. Raynolds</a> * <a href="*">Bridgeport, Connecticut, Centennial half dollar</a></p>
-            <ul><a href="*">Archive</a> * <a href="*">By email</a> * <a href="*">More featured articles</a></ul>
-          </div>
-        </div>
-      </div>
-    </div>
+
   </div>
 </div>
+
+
+
+
+
 </body>
 </html>
